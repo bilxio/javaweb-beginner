@@ -53,7 +53,7 @@ public class HelloServlet extends HttpServlet {
             rs.close();
             statement.close();
         } catch (SQLException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         } finally {
             try {
                 if (connection != null)  connection.close();
